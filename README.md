@@ -26,6 +26,13 @@ the path function inputs the name of the workspace into the base URL
 ### check_connection:
 we will be testing if the input is valid and working correctly. we have two inputs, one is the name of the lambda key or the workspace and the other input is the API key.
 
+Testing the connection by running 
+```
+python3 main.py check --config secrets/config.json
+
+```
+[Connection Successful](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-03%2019-57-03.png)
+
 ## schemas 
 it contains the schemas for the output of the API
 
