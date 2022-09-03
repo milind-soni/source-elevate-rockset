@@ -17,7 +17,7 @@ class SourceElevateRockset(AbstractSource):
     def check_connection(self, logger, config) -> Tuple[bool, any]:  #we will be testing if the input is valid and working correctly. we have two inputs, one is the name of the lambda key or the workspace and the other input is the API key
         try:
             workspace_stream = Workspace(
-                authenticator=TokenAuthenticator(token=config["api_token"]),
+                authenticator=TokenAuthenticator(token=config["api_token"], auth_header="Authorization", auth_method="ApiKey"),
                 workspace=config["workspace"],
             )
             next(workspace_stream.read_records(
