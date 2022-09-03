@@ -7,6 +7,9 @@ For information about how to use this connector within Airbyte, see [the documen
 ## Rockset API
 For the purpose of this demo I had created a lambda called "games"
 
+## Rockset API queries
+![alt text](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-03%2005-38-56.png)
+
 
 ## streams.py
 ### Workspace and path functions
@@ -26,6 +29,3 @@ we will be testing if the input is valid and working correctly. we have two inpu
 ## schemas 
 it contains the schemas for the output of the API
 
-
-## Rockset API queries
-![alt text](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-03%2005-38-56.png)
