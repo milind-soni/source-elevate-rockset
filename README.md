@@ -31,7 +31,7 @@ Testing the connection by running
 python3 main.py check --config secrets/config.json
 
 ```
-[Connection Successful](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-03%2019-57-03.png)
+![Connection Successful](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-03%2019-57-03.png)
 
 ## schemas 
 it contains the schemas for the output of the API
