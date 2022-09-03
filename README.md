@@ -7,11 +7,16 @@ For information about how to use this connector within Airbyte, see [the documen
 ## Rockset API
 For the purpose of this demo I had created a lambda called "games"
 
+
+## streams.py
+### Workspace and path functions
 The Rockset Query Lambda Endpoint base URL looks like https://api.use1a1.rockset.com/v1/orgs/self/ws/commons/lambdas/games/tags/latest
 
 where games is the name of the workspace or lambda created.
 
 For the purpose of this demo we will be taking input, the workspace which is the lambda and the API key which will eventually trigger the execution of these query using the Airbyte Connector.
+
+the path function inputs the name of the workspace into the base URL 
 
 ## source.py
 
