@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number"
+        },
+        "release_date": {
+          "type": "string"
+        },
+        "metascore": {
+          "type": "integer"
+        }
+      }
+    }
+  ]
+}
