@@ -3,6 +3,12 @@
 This is the repository for the Elevate Rockset source connector, written in Python.
 For information about how to use this connector within Airbyte, see [the documentation](https://docs.airbyte.io/integrations/sources/elevate-rockset).
 
+
+##Rockset API
+For the purpose of this demo I had created a lambda called "games"
+
+
+
 ## Local development
 
 ### Prerequisites
