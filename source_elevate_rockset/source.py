@@ -14,14 +14,14 @@ from .streams import Workspace
 
 
 class SourceElevateRockset(AbstractSource):
-    def check_connection(self, logger, config) -> Tuple[bool, any]:
+    def check_connection(self, logger, config) -> Tuple[bool, any]:  #we will be testing if the input is valid and working correctly. we have two inputs, one is the name of the lambda key or the workspace and the other input is the API key
         try:
             workspace_stream = Workspace(
                 authenticator=TokenAuthenticator(token=config["api_token"]),
                 workspace=config["workspace"],
             )
             next(workspace_stream.read_records(
-                sync_mode=SyncMode.full_refresh))
+                sync_mode=SyncMode.full_refresh))   
             return True, None
         except Exception as e:
             return False, f"Please check that your API key and workspace name are entered correctly: {repr(e)}"
