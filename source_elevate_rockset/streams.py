@@ -31,7 +31,6 @@ class RocksetStream(HttpStream, ABC):
 
 
 class Workspace(RocksetStream):
-    # Docs: https://docs.orbit.love/reference/get_workspaces-workspace-slug
     # This stream is primarily used for connnection checking.
     primary_key = "id"
 
