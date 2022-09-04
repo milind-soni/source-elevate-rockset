@@ -36,3 +36,8 @@ python3 main.py check --config secrets/config.json
 ## schemas 
 it contains the schemas for the output of the API
 
+## Querying the API 
+
+Created configured catalog to query the API records 
+![Querying API](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-04%2019-18-06.png)
+
