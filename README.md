@@ -46,3 +46,6 @@ Created configured catalog to query the API records
 
 ![Querying API](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-04%2019-18-06.png)
 
+##Setting Up connection and adding it to the Airbyte UI
+
+![Setting up Connection](https://raw.githubusercontent.com/milind-soni/source-elevate-rockset/main/Screenshot%20from%202022-09-05%2015-59-05.png)
